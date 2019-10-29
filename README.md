@@ -10,15 +10,14 @@ Procedure:
 How to change password if your miner's password is not root?
 
 User could set passwrod in oneclickminer.exe.config like below:
-  "
-  <common_web>
+
+  "<common_web>
   
     <add key="user" value="root" />
     
     <add key="pass" value="root" />
     
-  </common_web>
-  "
+  </common_web>"
   
 How to keep configuration?
 
