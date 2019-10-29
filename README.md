@@ -8,13 +8,17 @@ Procedure:
 4. during auto cycle, oneclickminer will auto upgrade bitstream when time is up (dgb-odo need upgrade bitstream every 10 days)
 
 How to change password if your miner's password is not root?
+
 User could set passwrod in oneclickminer.exe.config like below:
+  "
   <common_web>
     <add key="user" value="root" />
     <add key="pass" value="root" />
   </common_web>
+  "
   
 How to keep configuration?
+
 Once user change the pool setting (pool url, worker, pwd), oneclickminer will save the information in config.txt file.
 Oneclickminer will get url/worker/pwd from config.txt when app launch if config.txt exist
 
